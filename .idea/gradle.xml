@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/auth-domain" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway-domain" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/auth-domain" />
+            <option value="$PROJECT_DIR$/api-gateway-domain" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -15,6 +16,22 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/calendar-domain" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-domain" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/config-domain" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/discovery-domain" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/discovery-domain" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -31,14 +48,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/notification-domain" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/user-domain" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/user-domain" />
           </set>
         </option>
       </GradleProjectSettings>
