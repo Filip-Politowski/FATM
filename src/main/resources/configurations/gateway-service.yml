@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: user-group-service
+          uri: lb:http://USER-GROUP-SERVICE
+          predicates:
+            - Path=/api/v1/user_group/**
+server:
+  port: 8222
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty: DEBUG
